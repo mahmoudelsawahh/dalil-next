@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>دليل المحلة الإلكتروني</title>
+        <link>deltawy.net</link>
+        <description>دليل المحلة الإلكتروني - هو دليل ومحرك بحث شامل للشركات وهو دليل صناعي وتجاري وخدمي يشمل كافة القطاعات والأشخاص المهنيين ، من مميزات الدليل: طريقة العرض والبحث حداثة ودقة بياناته في جميع المجالات يتميز بأنه مطور بتقنيات برمجية حديثة الدليل بالكامل مجاناً لمن يريد البحث عن أي شئ يتميز بقوة نتائجه في محركات البحث يتميز الدليل بالسرعة في أرشفة البيانات في محركات البحث العالمية الدليل إشهار ممتاز للشركات التجارية والقطاعات الخدمية والأشخاص أصحاب الأعمال  </description>
+        <lastBuildDate>Wed, 06 Dec 2023 15:47:37 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://deltawy.com</generator>
+        <image>
+            <title>دليل المحلة الإلكتروني</title>
+            <url>deltawy.net/logo.png</url>
+            <link>deltawy.net</link>
+        </image>
+        <copyright>جميع الحقوق محفوظة لدي  شركه دلتاوي 2023, Ibas</copyright>
+        <item>
+            <title><![CDATA[الكنائس]]></title>
+            <link>https://deltawy.net/cat/136/city/0/state/0/page/0/الكنائس</link>
+            <guid>الكنائس</guid>
+            <pubDate>Wed, 06 Dec 2023 15:47:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[جوامع و مساجد]]></title>
+            <link>https://deltawy.net/cat/137/city/0/state/0/page/0/جوامع-و-مساجد</link>
+            <guid>جوامع و مساجد</guid>
+            <pubDate>Wed, 06 Dec 2023 15:47:37 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

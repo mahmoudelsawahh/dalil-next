@@ -1,0 +1,104 @@
+.footer {
+  direction: rtl;
+  .column_footer {
+      margin: 20px 0;
+  
+    }
+  
+    // margin-top: 50px;
+    padding: 0px 20px;
+    background-color: var(--bg-color);
+  
+    p {
+      font-size: 16px;
+    }
+  
+    hr {
+      // background-color: var(--main-color);
+      height: 2px;
+      background-color: #055c97;
+      opacity: 1;
+    }
+  
+    ul {
+  padding-left: 1rem !important;
+  padding-right: 0px !important;
+      li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        div {
+          width: 200px;
+          cursor: pointer;
+  
+          img {
+            width: 100%;
+          }
+        }
+  
+        a {
+          color: var(--black-color);
+          text-decoration: none;
+          display: block;
+          font-size: 18px;
+          padding: 10px;
+          font-weight: bold;
+          transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          -ms-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          color: #707070;
+  
+          &:hover {
+            color: var(--main-color);
+            padding-right: 15px;
+          }
+  
+        }
+  
+        .footer_arrow_icon {
+          font-size: 25px;
+          color: #707070;
+        }
+      }
+    }
+  
+    .rights_container {
+      border-top: 1px solid rgb(0 0 0 / 9%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 10px;
+  
+      h2 {
+        font-size: 18px;
+      }
+  
+      .rights_logo {
+        width: 200px;
+        margin: 0 15px;
+        cursor: pointer;
+  
+        img {
+          width: 100%;
+        }
+      }
+    }
+  
+  }
+  
+  .googleplay_container li {
+    justify-content: center;
+  }
+  
+  @media (max-width: 767.98px) {
+    .footer {
+      .row {
+        flex-direction: column-reverse
+      }
+    }
+  }

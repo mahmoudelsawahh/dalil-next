@@ -1,0 +1,73 @@
+.Privacy_container {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  padding: 50px 0;
+  direction: ltr;
+
+  h1 {
+    color: #092A49;
+    font-weight: 200;
+    font-size: 50px;
+    margin-left: 38px;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 313px;
+      height: 0;
+      bottom: 8px;
+      left: -38px;
+      border-bottom: 38px solid;
+      border-image: repeating-linear-gradient(60deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0, .1) 1.5%, rgba(0, 0, 0, .1) 3%) 30;
+    }
+
+    &:not(:first-of-type)::before {
+      position: absolute;
+      content: '';
+      width: 650px;
+      height: 0;
+      bottom: 8px;
+      left: -38px;
+      border-bottom: 38px solid;
+      border-image: repeating-linear-gradient(60deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0, .1) 1.5%, rgba(0, 0, 0, .1) 3%) 30;
+    }
+  }
+
+  .Privacy_card {
+    box-shadow: 0 2px 20px 0px rgb(38 42 46 / 18%);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+
+    p {
+      text-align: left;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .Privacy_container {
+
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 26px;
+
+      &::before {
+        width: 276px !important;
+        bottom: -5px !important;
+        left: -16px !important;
+      }
+    }
+  }
+}

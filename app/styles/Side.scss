@@ -1,0 +1,110 @@
+.aside {
+  direction: rtl;
+
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding: 30px 0;
+
+  .deltawy_gif_container {
+    img {
+      width: 100%;
+    }
+  }
+
+  #frist_aside {
+    margin: 30px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #dee2e6;
+
+    h3 {
+      background-color: #055c97;
+      color: #fff;
+      padding: 5px;
+      font-size: 18px;
+    }
+
+    .Links {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        color: #000;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-bottom: 1px solid rgb(230, 230, 230);
+        font-weight: bold;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.ads_side {
+  margin-top: 10px 0;
+
+  .ads_container {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    margin: 10px 0;
+
+    .ads_img_container {
+      overflow: hidden;
+      width: 50px;
+      height: 50px;
+      img {
+        width: 100%;
+      }
+    }
+
+    a {
+      border-bottom: none !important;
+    }
+
+  }
+
+  .loading_circel {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      top: 50%;
+      left: 50%;
+      margin-left: -15px;
+      margin-top: -20px;
+
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      margin-left: -5px;
+      margin-top: -15px;
+      border-color: transparent;
+    }
+  }
+
+  .friends {
+    a {
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
+  }
+}
+
+.ads_container:not(:last-of-type) {
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+}

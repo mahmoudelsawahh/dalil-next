@@ -1,0 +1,42 @@
+.register {
+  direction: rtl;
+
+  width: 70%;
+  direction: rtl !important;
+
+  .row {
+    justify-content: space-around;
+
+    .kep_login_facebook {
+      direction: ltr;
+      padding: 10px 15px;
+    }
+
+    .go_to_login {
+      color: black;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+
+      span {
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 24px;
+
+      }
+    }
+
+    .type_radio {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      // direction: ltr;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .register {
+    width: 100%;
+  }
+}
